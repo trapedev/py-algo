@@ -1,3 +1,6 @@
+#問題
+#https://atcoder.jp/contests/past202004-open/tasks/past202004_f
+
 N = int(input())
 
 #X[d]:d日目から実行可能になるタスクのポイントを集めた配列
