@@ -30,7 +30,7 @@ for k in range(0, N):
         for y in range(0, N):
             dist[x][y] = min(dist[x][y], dist[x][k] + dist[k][y])
 
-#全ての頂点の組について最短距離を合計する
+#全ての頂点の組について最短距離を合計
 ans = 0
 for i in range(0, N):
     for j in range(0, N):
