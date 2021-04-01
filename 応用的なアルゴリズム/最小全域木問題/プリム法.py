@@ -50,7 +50,7 @@ while marked_count < N:
     #新たにマークした頂点iに隣接する辺を調べる
     for (j, c) in G[i]:
         #辺がつなぐ頂点が既にマークされていた場合はヒープに入れない
-        if marked[i]:
+        if marked[j]:
             continue
 
         heapq.heappush(Q, (c, j))
